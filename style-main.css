@@ -1,0 +1,389 @@
+body {
+  background-color: rgba(35, 40, 48, 1);
+}
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-content-wrapper {
+  align-items: center;
+}
+
+.writings-dev {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 20px;
+}
+
+.image-and-writings {
+  /* width: 844px;
+  height: 391px; */
+  /* border: 5px solid rgba(64, 57, 110, 1); */
+  /* margin: 0 auto; */
+}
+
+.image {
+  text-align: center;
+}
+
+.writings-for-developer {
+  font-family: "Recursive";
+  font-size: 65px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 85px;
+  color: rgba(255, 117, 117, 1);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.curated-collections {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 44px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+}
+
+.category-listing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.scrollable-div {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.listing {
+  list-style-type: none;
+  font-family: Recursive;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: left;
+  color: rgba(144, 144, 144, 1);
+  margin: 20px;
+}
+
+.icons {
+  font-weight: bold;
+  margin-right: 30px;
+  color: rgba(77, 77, 77, 1);
+  font-size: 27px;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 33px;
+  row-gap: 32px;
+}
+
+.rectangle {
+  max-width: 390px;
+  height: 100%;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(37, 41, 48, 1);
+}
+
+.image-row {
+  margin: 20px;
+  text-align: center;
+}
+
+.imagee {
+  width: 100%;
+  border-radius: 22px;
+  object-fit: cover;
+  height: 160px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.video-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  color: #0f1217;
+  margin: 0;
+  padding: 10px 25px;
+}
+
+.video-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f1217;
+  margin: 0;
+  padding: 10px 25px;
+}
+.stats {
+  padding: 10px 25px;
+}
+.video-stats {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f1217;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Recursive;
+  font-size: 25px;
+  color: #9b9b9b;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.page-nav {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.page-num {
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #9b9b9b;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.page-num.active {
+  color: #ff7676;
+  font-weight: bold;
+  position: relative;
+}
+
+.page-num.active::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #ff7676;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
+
+.right-writing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.writings-dev2 {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+button {
+  background: #4699e0;
+  font-family: "Source Code Pro";
+  font-size: 17px;
+  color: #ffffff;
+  margin: 30px;
+}
+
+.hr-bottom {
+  border: 3px solid #4d4d4d;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+/* responsive */
+
+@media (max-width: 1024px) {
+  .groups-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .writings-dev {
+    font-size: 20px;
+  }
+  .writings-for-developer {
+    font-size: 40px;
+  }
+
+  .category-name {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .curated-collections {
+    font-size: 25px;
+  }
+  .listing {
+    font-size: 16px;
+    margin: 10px;
+}
+}
+
+@media (max-width: 768px) {
+  .groups-grid {
+    grid-template-columns: 1fr;
+  }
+  .categories {
+    justify-content: center;
+    font-size: 15px;
+  }
+  .writings-dev {
+    font-size: 16px;
+  }
+
+  .icons{
+    margin-right: 10px;
+  }
+
+  .writings-for-developer {
+    font-size: 28px;
+  }
+
+  .category-name {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .listing {
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  .pagination {
+    font-size: 17px;
+  }
+
+  button {
+    margin: 12px;
+    font-size: 12px;
+  }
+
+  .writings-dev2 {
+    font-size: 12px;
+  }
+  .curated-collections {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .writings-for-developer {
+    font-size: 22px;
+    margin: 10px;
+  }
+
+  .curated-collections {
+    font-size: 12px;
+  }
+  .rectangle {
+    width: 100%;
+  }
+  .imagee {
+    width: 90%;
+  }
+  .category-listing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .pagination {
+    font-size: 15px;
+  }
+  button {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .writings-dev2 {
+    font-size: 10px;
+  }
+
+  .writings-dev {
+    font-size: 13px;
+  }
+
+  .categories {
+    justify-content: center;
+    font-size: 11px;
+  }
+  .category-name {
+    margin-right: 5px;
+    font-size: 11px;
+  }
+
+  .listing {
+    font-size: 18px;
+    margin: 5px
+  }
+  .hr-bottom {
+    margin-top: 40px;
+  }
+}
